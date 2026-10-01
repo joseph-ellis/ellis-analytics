@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactCompiler: true,
+  allowedDevOrigins: ["ellisanalytics.com"],
+  reactCompiler: true
 };
 
 export default nextConfig;
